@@ -1,0 +1,23 @@
+.sidebar {
+    background-color: #3d3b3b;
+}
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 118px;
+    border:1px solid gray;
+}
+.sidebar li a {
+    display: block;
+    padding: 8px 16px;
+    color:#cacaca;
+    text-decoration: none;
+  }
+  .sidebar li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+.sidebar li:last-child{
+    border-bottom:none;
+}
