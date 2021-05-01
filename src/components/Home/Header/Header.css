@@ -1,0 +1,27 @@
+
+.main-container {
+    background-color:#303030;
+    color:#CACACA;
+}
+.intro {
+    font-size:60px;
+}
+.intro-details {
+    letter-spacing : 4px;
+}
+.intro-btn {
+    background-color:#303030;
+    border: 1px solid #05FDD8;
+    border-radius:5px;
+    padding:10px 35px;
+    color:#05FDD8;
+
+}
+.intro-btn:hover {
+    background-color:#05FDD8;
+    color:black;
+    transition:background-color 1s;
+}
+.brand-text {
+    color: #05FDD8;
+}

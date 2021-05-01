@@ -1,4 +1,4 @@
-import Home from "./components/Home/Home";
+import Home from "./components/Home/Home/Home";
 import {
   BrowserRouter as Router,
   Switch,
@@ -6,9 +6,9 @@ import {
   Link
 } from "react-router-dom";
 import Menubar from "./components/Menubar/Menubar";
-import Projects from "./components/Projects/Projects/Projects";
+import AllProjectsDetails from "./components/AllProjectsDetails/AllProjectsDetails/AllProjectsDetails";
 import Blogs from "./components/Blogs/Blogs";
-import ContactForm from "./components/ContactForm/ContactForm";
+import ContactForm from "./components/Home/ContactForm/ContactForm";
 import About from "./components/About/About";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         </Route>
 
         <Route path="/projects">
-          <Projects />
+          <AllProjectsDetails />
         </Route>
 
         <Route path="/blogs">
@@ -41,6 +41,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+
   );
 }
 

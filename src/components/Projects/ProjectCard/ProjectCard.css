@@ -1,0 +1,11 @@
+.p-card {
+    background-color:red;
+}
+.project-card img{
+    height:300px;
+    object-fit:contain;
+}
+.project-card img:hover {    
+    transform:scale(1.2);
+    transition:transform 1s;
+}
