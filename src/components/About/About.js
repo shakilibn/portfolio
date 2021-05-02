@@ -4,6 +4,9 @@ import img from '../../images/myPic.jpg';
 import { Link } from 'react-router-dom';
 import github from '../../images/icons/github.png'
 import linkedin from '../../images/icons/linkedin.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import ParticleBackground from '../ParticleBackground/ParticleBackground';
 
 const comfortable = ['JavaScript', 'ES6', 'React.js', 'React Router', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'HTML', 'CSS'];
 const familiar = ['React native', 'Map API', 'SQL', 'Material Design', 'SASS', 'OOP', 'Data Structuring'];
@@ -12,6 +15,7 @@ const others = ['Firebase', 'Netlify', 'Heroku', 'Github', 'VS Code', 'Photoshop
 const About = () => {
     return (
         <div className="main-container">
+            <ParticleBackground />
             <div className="row p-5">
                 <div className="col-md-6 p-3">
                     <img className="img-fluid rounded-circle mb-5" src={img} alt="" style={{ height: '200px' }} />
@@ -46,9 +50,10 @@ const About = () => {
                     <Link to="/projects"><button className="intro-btn mr-3">Projects</button></Link>
                 </div>
             </div>
-            <div className="icons text-center mb-3">
-                <a href="https://github.com/shakilibn" target="_blank"><img src={github} alt="" /></a>
-                <a href="https://www.linkedin.com/in/safiqul-islam-shakil-bab781210/" target="_blank"><img src={linkedin} alt="" /></a>
+            <div className="text-center mb-2">
+                <a href="https://github.com/shakilibn" target="_blank"><FontAwesomeIcon className="text-white fa-2x mr-3" icon={faGithub} /></a>
+                <a href="https://www.linkedin.com/in/safiqul-islam-shakil-bab781210/" target="_blank"><FontAwesomeIcon className="text-white fa-2x" icon={faLinkedin} /></a>
+
             </div>
             <p className="text-center">Designed & Developed by <span className="brand-text">Safiqul islam</span></p>
         </div>

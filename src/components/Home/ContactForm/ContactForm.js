@@ -2,6 +2,7 @@ import { Button } from 'react-bootstrap';
 import React, { useState } from 'react';
 import './ContactForm.css'
 import emailjs from 'emailjs-com';
+import ParticleBackground from '../../ParticleBackground/ParticleBackground';
 
 const ContactForm = () => {
 
@@ -21,6 +22,7 @@ const ContactForm = () => {
 
     return (
         <section className="main-container p-3">
+            <ParticleBackground />
             < h2 className="text-center pt-5 brand-text"> Contact me</h2 >
             <h5 className="text-center mb-4 text-muted">If you wanna get in touch, talk to me about a project collaboration or just say hi</h5>
 
