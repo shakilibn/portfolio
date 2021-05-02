@@ -10,7 +10,8 @@ const Header = () => {
                 <h1 className="intro">Hi,<br /> i'm Safiqul,<br /> web developer</h1>
                 <p className="intro-details" style={{fontSize:'20px'}}>  
                 <Typical
-                    steps={['MERN stack developer...', 2000, 
+                    steps={['Full stack developer', 2000,
+                    'MERN stack developer', 2000, 
                     'I love coding...', 2000, 
                     'coding is my passion', 2000]}
                     loop={Infinity}

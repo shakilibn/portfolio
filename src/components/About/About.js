@@ -2,6 +2,8 @@ import React from 'react';
 import './About.css'
 import img from '../../images/myPic.jpg';
 import { Link } from 'react-router-dom';
+import github from '../../images/icons/github.png'
+import linkedin from '../../images/icons/linkedin.png'
 
 const comfortable = ['JavaScript', 'ES6', 'React.js', 'React Router', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'HTML', 'CSS'];
 const familiar = ['React native', 'Map API', 'SQL', 'Material Design', 'SASS', 'OOP', 'Data Structuring'];
@@ -43,6 +45,10 @@ const About = () => {
                     </ul>
                     <Link to="/projects"><button className="intro-btn mr-3">Projects</button></Link>
                 </div>
+            </div>
+            <div className="icons text-center mb-3">
+                <a href="https://github.com/shakilibn" target="_blank"><img src={github} alt="" /></a>
+                <a href="https://www.linkedin.com/in/safiqul-islam-shakil-bab781210/" target="_blank"><img src={linkedin} alt="" /></a>
             </div>
             <p className="text-center">Designed & Developed by <span className="brand-text">Safiqul islam</span></p>
         </div>
