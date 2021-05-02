@@ -15,7 +15,7 @@ const About = () => {
                     <img className="img-fluid rounded-circle mb-5" src={img} alt="" style={{ height: '200px' }} />
                     <h3 className="mb-3">I am <span className="brand-text">Safiqul Islam</span></h3>
                     <p className="my-5">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
-                    <Link to="/contact"><button className="intro-btn mr-3">Contact me</button></Link>
+                    <Link to="/contact"><button className="intro-btn mr-3 mb-3">Contact me</button></Link>
                     <a href="https://drive.google.com/uc?export=download&id=17IK_1oRnQO_Yo8oRA3oORuYYiML_SGSn"><button className="intro-btn">Get Resume</button></a>
                 </div>
                 <div className="col-md-6 p-3">
