@@ -5,6 +5,7 @@ import AllProjectsDetails from '../../AllProjectsDetails/AllProjectsDetails/AllP
 import ContactForm from '../ContactForm/ContactForm';
 import Projects from '../../Projects/Projects/Projects';
 import ParticleBackground from '../../ParticleBackground/ParticleBackground';
+import Footer from '../../Footer/Footer';
 
 const Home = () => {
     return (
@@ -12,8 +13,8 @@ const Home = () => {
             <ParticleBackground />
             <Header />
             <Projects />
-            <AllProjectsDetails />
             <ContactForm />
+            <Footer />
         </div>
     );
 };

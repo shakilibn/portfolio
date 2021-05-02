@@ -11,27 +11,39 @@ const projects = [
     {
         id: 1,
         name: 'Travel Valley',
-        img: travelValley
+        img: travelValley,
+        live:"https://travel-valley.web.app/",
+        github: "https://github.com/shakilibn/Travel-valley"
     }, {
         id: 2,
         name: 'E-Shop',
-        img: eShop
+        img: eShop,
+        live: "https://full-stack-e-shop.web.app/",
+        github: "https://github.com/shakilibn/E-shop-client"
     }, {
         id: 3,
         name: 'Moto Riders',
-        img: motoRiders
+        img: motoRiders,
+        live: "https://moto-riders-68ceb.web.app/",
+        github: "https://github.com/shakilibn/Moto-Riders"
     }, {
         id: 4,
         name: 'League Tracker',
-        img: leagueTracker
+        img: leagueTracker,
+        live: "https://boring-joliot-32b45a.netlify.app/",
+        github: "https://github.com/Porgramming-Hero-web-course/react-router-shakilibn"
     }, {
         id: 5,
         name: 'Panda Commerce',
-        img: pandaCommerce
+        img: pandaCommerce,
+        live: "https://shakilibn.github.io/panda-commerce-bootstrap/",
+        github: "https://github.com/shakilibn/panda-commerce-bootstrap"
     }, {
         id: 6,
         name: 'Portfolio',
-        img: portfolio
+        img: portfolio,
+        live: "https://safiqul-1.web.app/",
+        github: "https://github.com/shakilibn/portfolio"
     }
 ];
 

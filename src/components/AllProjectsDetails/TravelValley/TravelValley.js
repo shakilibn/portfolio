@@ -2,6 +2,7 @@ import React from 'react';
 import './TravelValley.css';
 import travelValley from '../../../images/travel-valley.PNG';
 import travelValley2 from '../../../images/travel-valley-2.PNG';
+import ParticleBackground from '../../ParticleBackground/ParticleBackground';
 
 const TravelValley = () => {
     return (

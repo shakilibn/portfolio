@@ -10,6 +10,7 @@ import AllProjectsDetails from "./components/AllProjectsDetails/AllProjectsDetai
 import Blogs from "./components/Blogs/Blogs";
 import ContactForm from "./components/Home/ContactForm/ContactForm";
 import About from "./components/About/About";
+import ProjectDetails from "./components/Projects/ProjectDetails/ProjectDetails";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
         <Route path="/projects">
           <AllProjectsDetails />
+        </Route>
+
+        <Route path="/project/:id">
+          <ProjectDetails />
         </Route>
 
         <Route path="/blogs">

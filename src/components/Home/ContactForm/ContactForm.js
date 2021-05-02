@@ -28,11 +28,11 @@ const ContactForm = () => {
 
             <div className="d-flex justify-content-center">
                 <form className="form-area" action="" onSubmit={sendMessage}>
-                    <input type="text" name="name" className="form-control mb-3 input-style" placeholder="your name" />
-                    <input type="text" name="email" className="form-control mb-3 input-style" placeholder="your email Address" />
+                    <input style={{transform:'scale(1)'}} type="text" name="name" className="form-control mb-3 input-style" placeholder="your name" />
+                    <input style={{transform:'scale(1)'}} type="text" name="email" className="form-control mb-3 input-style" placeholder="your email Address" />
                     <textarea className="form-control mb-3 input-style" name="message" id="" rows="5" placeholder="write your message"></textarea>
                     <div className="d-flex justify-content-end">
-                        <input className="intro-btn" type="submit" value="Send message" />
+                        <input style={{zIndex:1}} className="intro-btn" type="submit" value="Send message" />
                     </div>
                 </form>
             </div>

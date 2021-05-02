@@ -1,0 +1,12 @@
+.footer-container {
+    transform: scale(1);
+    background-color: #343A40;
+    height: auto;
+}
+.footer-container ul {
+    list-style:none;
+    margin-bottom:30px;
+}
+ul li {
+    margin-bottom:8px;
+}

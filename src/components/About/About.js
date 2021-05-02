@@ -2,8 +2,6 @@ import React from 'react';
 import './About.css'
 import img from '../../images/myPic.jpg';
 import { Link } from 'react-router-dom';
-import github from '../../images/icons/github.png'
-import linkedin from '../../images/icons/linkedin.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import ParticleBackground from '../ParticleBackground/ParticleBackground';
@@ -23,6 +21,10 @@ const About = () => {
                     <p className="my-5">A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
                     <Link to="/contact"><button className="intro-btn mr-3 mb-3">Contact me</button></Link>
                     <a href="https://drive.google.com/uc?export=download&id=17IK_1oRnQO_Yo8oRA3oORuYYiML_SGSn"><button className="intro-btn">Get Resume</button></a>
+                    <div className="mt-5 pt-3">
+                        <a href="https://github.com/shakilibn" target="_blank"><FontAwesomeIcon className="text-white fa-2x mr-3" icon={faGithub} /></a>
+                        <a href="https://www.linkedin.com/in/safiqul-islam-shakil-bab781210/" target="_blank"><FontAwesomeIcon className="text-white fa-2x" icon={faLinkedin} /></a>
+                    </div>
                 </div>
                 <div className="col-md-6 p-3">
                     <h3 className="brand-text">My Skills Set</h3>
@@ -47,13 +49,8 @@ const About = () => {
                             others.map(item => <li>{item}</li>)
                         }
                     </ul>
-                    <Link to="/projects"><button className="intro-btn mr-3">Projects</button></Link>
+                    <span className="d-flex justify-content-center"><Link to="/projects"><button className="intro-btn mr-3">My Projects</button></Link></span>
                 </div>
-            </div>
-            <div className="text-center mb-2">
-                <a href="https://github.com/shakilibn" target="_blank"><FontAwesomeIcon className="text-white fa-2x mr-3" icon={faGithub} /></a>
-                <a href="https://www.linkedin.com/in/safiqul-islam-shakil-bab781210/" target="_blank"><FontAwesomeIcon className="text-white fa-2x" icon={faLinkedin} /></a>
-
             </div>
             <p className="text-center">Designed & Developed by <span className="brand-text">Safiqul islam</span></p>
         </div>
