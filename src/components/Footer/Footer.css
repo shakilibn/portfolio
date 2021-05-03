@@ -10,3 +10,11 @@
 ul li {
     margin-bottom:8px;
 }
+li:hover {
+    color:#FC1056 !important;
+}
+.footer-icon:hover {
+    color:#05FDD8 !important;
+    padding:2px;
+    transition:padding 0.3s, color 0.5s;
+}

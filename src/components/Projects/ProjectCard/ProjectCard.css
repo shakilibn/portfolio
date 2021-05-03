@@ -48,3 +48,11 @@
       color:black;
       transition:background-color 1s;
   }
+.card-icon{
+    padding:3px;
+}
+.card-icon:hover{
+    color:#FC1056 !important;
+    padding:0px;
+    transition:padding 0.3s, color 0.3s;
+}

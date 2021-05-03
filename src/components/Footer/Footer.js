@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className="footer-container p-5 mt-5">
             <div className="text-center text-white">
-                <div className="row">
+                <div className="row mb-3">
                     <div className="col-md-3">
                         <h6 className="pl-5 mb-3 text-decoration-underline brand-text">Skills</h6>
                         <ul>
@@ -46,14 +46,15 @@ const Footer = () => {
                         <ul>
                             <li>Dhaka, Bangladesh</li>
                         </ul>
-                        <a href="https://github.com/shakilibn" target="_blank"><FontAwesomeIcon className="text-white fa-2x mr-3" icon={faGithub} /></a>
-                        <a href="https://www.linkedin.com/in/safiqul-islam-shakil-bab781210/" target="_blank"><FontAwesomeIcon className="text-white fa-2x" icon={faLinkedin} /></a>
+                        <a href="https://github.com/shakilibn" target="_blank"><FontAwesomeIcon className="text-white footer-icon fa-2x mr-3" icon={faGithub} /></a>
+                        <a href="https://www.linkedin.com/in/safiqul-islam-shakil-bab781210/" target="_blank"><FontAwesomeIcon className="footer-icon text-white fa-2x" icon={faLinkedin} /></a>
                         <div className="mt-4">
                             <a href="https://drive.google.com/uc?export=download&id=17IK_1oRnQO_Yo8oRA3oORuYYiML_SGSn">
                                 <button className="intro-btn"><FontAwesomeIcon className="text-white mr-3" icon={faDownload} />Get Resume</button></a>
                         </div>
                     </div>
                 </div>
+                <p className="pt-2">&copy; {(new Date()).getFullYear()} All rights reserved, <span className="brand-text">Safiqul Islam Shakil</span></p>
             </div>
         </div>
     );
