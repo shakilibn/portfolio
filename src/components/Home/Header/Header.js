@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './Header.css'
 import img from '../../../images/myPic.jpg'
 import Typical from 'react-typical'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import Jump from 'react-reveal/Jump';
-import HeadShake from 'react-reveal/HeadShake';
+import lottie from 'lottie-web';
 
 const Header = () => {
+    const container = useRef(null);
+
+    useEffect(() => {
+        lottie.loadAnimation({
+            container: container.current,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: require('../../../images/animation/laptop.json')
+        })
+    },[])
+
     return (
         <div className="row main-container header">
             <div className="col-md-6 p-5">
@@ -27,6 +39,7 @@ const Header = () => {
             </div>
             <div className="col-md-6">
                 {/* <img className="img-fluid rounded-circle m-auto d-block" style={{padding:'10%'}} src={img} alt=""/> */}
+                <div className="container" ref={container}></div>
             </div>
         </div>
     );

@@ -26,7 +26,7 @@ const About = () => {
                     <a href="https://drive.google.com/uc?export=download&id=17IK_1oRnQO_Yo8oRA3oORuYYiML_SGSn"><button className="intro-btn">Get Resume</button></a>
                     <div className="mt-5 pt-3">
                         <a href="https://github.com/shakilibn" target="_blank"><FontAwesomeIcon className="text-white footer-icon fa-2x mr-3" icon={faGithub} /></a>
-                        <a href="https://www.linkedin.com/in/safiqul-islam-shakil-bab781210/" target="_blank"><FontAwesomeIcon className="footer-icon text-white fa-2x" icon={faLinkedin} /></a>
+                        <a href="https://www.linkedin.com/in/safiqul/" target="_blank"><FontAwesomeIcon className="footer-icon text-white fa-2x" icon={faLinkedin} /></a>
                     </div>
                 </div>
                 <div className="col-md-6 p-3">
