@@ -46,7 +46,7 @@ const ContactForm = () => {
                         <form className="form-area" action="" onSubmit={sendMessage}>
                             <input style={{ transform: 'scale(1)' }} type="text" name="name" className="form-control mb-3 input-style" placeholder="your name" />
                             <input style={{ transform: 'scale(1)' }} type="text" name="email" className="form-control mb-3 input-style" placeholder="your email Address" />
-                            <textarea className="form-control mb-3 input-style" name="message" id="" rows="5" placeholder="write your message"></textarea>
+                            <textarea className="form-control mb-3 input-style" name="message" id="" rows="7" placeholder="write your message"></textarea>
                             <div className="d-flex justify-content-end">
                                 <input style={{ zIndex: 1 }} className="intro-btn" type="submit" value="Send message" />
                             </div>
@@ -54,7 +54,7 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="container" ref={container}></div>
+                    <div className="container" style={{height:'400px', marginTop:'10%'}} ref={container}></div>
                 </div>
             </div>
 

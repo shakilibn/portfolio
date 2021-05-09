@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="text-center text-white">
                 <div className="row mb-3">
                     <div className="col-md-3">
-                        <h6 className="pl-5 mb-3 text-decoration-underline brand-text">Skills</h6>
+                        <h6 className="pl-5 mb-3 text-decoration-underline brand-text">My Skills</h6>
                         <ul>
                             <li>React</li>
                             <li>React Router</li>
@@ -21,7 +21,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-md-3">
-                        <h6 className="pl-5 mb-3 text-decoration-underline brand-text">Projects</h6>
+                        <h6 className="pl-5 mb-3 text-decoration-underline brand-text">My Projects</h6>
                         <ul>
                             <li>Travel Valley</li>
                             <li>E-Shop</li>
@@ -32,7 +32,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-md-3">
-                        <h6 className="pl-5 mb-3 text-decoration-underline brand-text">Information</h6>
+                        <h6 className="pl-5 mb-3 text-decoration-underline brand-text">My Information</h6>
                         <ul>
                             <li>Miles</li>
                             <li>About me</li>
